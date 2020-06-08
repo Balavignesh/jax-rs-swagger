@@ -12,9 +12,9 @@ import javax.ws.rs.core.Application;
  * Configures JAX-RS for the application.
  * @author Juneau
  */
-@OpenAPIDefinition(servers = @Server(url="/GradeBook"),info = @Info(title = "Grade Book",version = "1.0",
+@OpenAPIDefinition(servers = @Server(url="/jax-rs-swagger"),info = @Info(title = "jax-rs-swagger",version = "1.0",
         contact = @Contact(
-            name = "Grade Book",
+            name = "jax-rs-swagger",
             email = "balasu05@email.franklin.edu")))
 @ApplicationPath("services")
 public class JAXRSConfiguration extends Application {
